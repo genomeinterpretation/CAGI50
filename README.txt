@@ -13,7 +13,7 @@ The predictions from only publicly available tools and/or top performing methods
 given challenge are provided. The predictions (either merged in the data file or in separate files)
 are also contained in ./data folder.
 
-The analysis pipeline can be divided into three main parts, 1) Data Interface (DI): reading the experimental 
+The analysis pipeline can be divided into four parts, 1) Data Interface (DI): reading the experimental 
 data and prediction files, 2) Measure Computation (MC): evaluating the predictions by computing relevant
 measures, 3) Ranking and selection (RS): ranking methods based on appropriate measures and selecting the 
 top performers, along with top performing baseline (if applicable) and Experimental-Max (if applicable)
