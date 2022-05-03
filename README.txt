@@ -7,7 +7,7 @@ The code used for analyzing the datasets in the CAGI Flagship paper is contained
 Due to data privacy issues only publicly available datasets are provided in this submission.
 Based on this criteria, only full datasets for NAGLU and PTEN are provided. The Annotate all
 missense data, stripped of all HGMD variants, is provided. Additionally, for the Crohn’s challenge, 
-the only class labels and the subject id is provided in the dataset. The datasets are available on the CAGI website. Please download the datasets into ./data folder before running the code.
+the only class labels and the subject id is provided in the dataset. The data files are contained in ./data folder.
 
 The predictions from only publicly available tools and/or top performing methods in a 
 given challenge are provided. The predictions (either merged in the data file or in separate files)
