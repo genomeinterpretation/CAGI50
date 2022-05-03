@@ -29,7 +29,7 @@ all relevant measures and their bootstrap summaries are computed with the MC cod
 perfMetrics objects, along with a Dataset object, recording some properties of the dataset, used in 
 annotating figures and tables, is stored as a .mat file in the ./results folder. 
 The .mat file containing the results is later used by the FT code to generate the figures and tables
-after ranking and selecting the methods with RS.
+after ranking and selecting the methods with RS. The tables are stored in the ./results folder.
 
 In this submission, the scripts for computing the measures and storing them as .mat files are 
 1) generateResults_NAGLU_PTEN.m
