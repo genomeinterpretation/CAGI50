@@ -59,10 +59,10 @@ function out = Crohns(data_folder)
     
     
     function perfMetricWrapper(classes, scores, group, method, isBaseline, isExpMax)
-        disp('Crohns4: positives')
-        disp(sum(classes))
-        disp('Crohns4: negatives:')
-        disp(length(classes)-sum(classes));
+%         disp('Crohns4: positives')
+%         disp(sum(classes))
+%         disp('Crohns4: negatives:')
+%         disp(length(classes)-sum(classes));
         class_index = 1:length(classes);
         priors = 0.013;
         negated = false;
